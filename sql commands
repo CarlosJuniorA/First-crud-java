@@ -1,0 +1,11 @@
+sql
+
+CREATE DATABASE exemplo_cruud;
+
+USE exemplo_crud;
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL
+);
